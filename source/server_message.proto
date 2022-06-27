@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package server;
+
+message server_response {
+  optional int32 port = 1;
+}

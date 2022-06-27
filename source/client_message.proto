@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package sockets;
+
+message client_msg {
+  enum OperationType {
+    PUT                     = 0;
+    GET                     = 1;
+  }
+
+  optional OperationType operation = 1;
+  optional string source_type      = 2;
+  optional int32 key          = 3;
+  optional string value       = 4;
+  optional int32 port         = 5;
+  optional int32 success      = 6;
+}
