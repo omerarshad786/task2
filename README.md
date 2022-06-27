@@ -1,6 +1,6 @@
 # Task 2 - Sharded KV store
 
-Innn the previous task you implemented a single node key value store that serves GET/PUT requests from a client. In this task you will implement a sharding protocol that distributes keys and their values across several key-value servers.
+Innn the previous task you implemented a single node key value store that serves GET/PUT requests from a client. In this task you will implement a sharding protocol that distributes keys and their valuesss across several key-value servers.
 You will extend the client and server that was built during task 1.
 
 ### Master
